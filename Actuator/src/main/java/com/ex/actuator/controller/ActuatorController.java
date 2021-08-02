@@ -12,4 +12,9 @@ public class ActuatorController {
 	public String getInfo() {
 		return "Spring Boot Actuator...";
 	}
+
+		public String getStatus() {
+		return "Spring Boot Actuator...";
+	}
+
 }
