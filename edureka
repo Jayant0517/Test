@@ -1,5 +1,8 @@
 #!/bin/bash
 read -p "enter A:" A
 read -p "enter B:" B
+read -p "enter C:" C
 SUM=$[A+B]
 echo "$SUM"
+ADD=$[A+B+C]
+echo "$ADD"
